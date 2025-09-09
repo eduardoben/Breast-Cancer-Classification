@@ -1,7 +1,7 @@
 # Breast Cancer Classification  
+
+### Author: Himmler Benitez
 ---
-Author: Himmler Benitez
-License: MIT
 
 ## Abstract  
 This project investigates the application of supervised machine learning techniques for the classification of breast cancer tumors using the **Wisconsin Diagnostic Breast Cancer (WDBC)** dataset. The primary objective is **prediction**: to build models that distinguish malignant from benign cases based on cytological features extracted from fine-needle aspirates (FNA). The analysis compares models of varying complexity and interpretability, with an emphasis on minimizing false negatives to support clinical decision-making.  
@@ -72,5 +72,8 @@ Random Forest was selected as the final model, as it provided the best trade-off
 - The dataset is relatively small and drawn from a single institution, which may limit generalizability.  
 - Additional clinical or demographic features could further enhance predictive performance.  
 - External validation on independent datasets is required.  
-- Future work may include exploring calibrated probabilities, cost-sensitive learning, and advanced ensemble methods (e.g., Gradient Boosting, XGBoost).  
+- Future work may include exploring calibrated probabilities, cost-sensitive learning, and advanced ensemble methods (e.g., Gradient Boosting, XGBoost).
+
+---
+## License: MIT
 
